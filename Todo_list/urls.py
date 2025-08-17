@@ -41,8 +41,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('todos.urls')),
     
-    #Swagger 
-    # Swagger
+
 path("schema/", get_schema_view(
     title="API's",
     description="API for Erp contract",
